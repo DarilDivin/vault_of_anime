@@ -2,13 +2,14 @@
 
 import { fetchAnime } from "@/app/action";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import AnimeCard from "./AnimeCard";
 
 let page = 2
 
-export type AnimeCard = JSX.Element
+// export type AnimeCard = JSX.Element
+export type AnimeCard = React.ReactElement
 
 function LoadMore() {
   const { ref, inView } = useInView()

@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vault of Anime
 
-## Getting Started
+Vault of Anime est une application web construite avec Next.js qui permet aux utilisateurs d'explorer, de découvrir et de gérer leurs séries et films d'anime préférés.
 
-First, run the development server:
+## Fonctionnalités
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Recherche d'Anime** : Recherchez des animes par titre ou genre.
+- **Informations Détaillées** : Consultez des informations détaillées sur chaque anime, y compris le synopsis, les notes, et plus encore.
+- **Gestion des Favoris** : Enregistrez vos animes préférés dans votre coffre personnel.
+- **Design Réactif** : Entièrement réactif et optimisé pour tous les appareils.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Utilisées
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js** : Framework React pour le rendu côté serveur et la génération de sites statiques.
+- **JavaScript** : Langage de programmation principal de l'application.
+- **CSS/SCSS** : Styles pour l'interface utilisateur.
+- **API Anime** : API externe pour récupérer les données des animes.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clonez le dépôt :
+    ```bash
+    git clone https://github.com/your-username/vault_of_anime.git
+    ```
+2. Accédez au répertoire du projet :
+    ```bash
+    cd vault_of_anime
+    ```
+3. Installez les dépendances :
+    ```bash
+    npm install
+    ```
+4. Lancez le serveur de développement :
+    ```bash
+    npm run dev
+    ```
+5. Ouvrez votre navigateur et allez sur `http://localhost:3000`.
 
-To learn more about Next.js, take a look at the following resources:
+## Contribution
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Les contributions sont les bienvenues ! Veuillez suivre ces étapes :
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Forkez le dépôt.
+2. Créez une nouvelle branche :
+    ```bash
+    git checkout -b nom-de-la-fonctionnalité
+    ```
+3. Validez vos modifications :
+    ```bash
+    git commit -m "Ajout de nom-de-la-fonctionnalité"
+    ```
+4. Poussez votre branche :
+    ```bash
+    git push origin nom-de-la-fonctionnalité
+    ```
+5. Ouvrez une pull request.
 
-## Deploy on Vercel
+## Licence
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ce projet est sous licence [MIT License](LICENSE).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact
+
+Pour toute question ou retour, n'hésitez pas à nous contacter à votre-email@example.com.

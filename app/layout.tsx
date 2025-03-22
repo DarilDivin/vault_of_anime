@@ -9,10 +9,12 @@ import "./globals.css";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Anime Vault",
-  description: "Your favorite anime, all in one place.",
+  title: "Coffre d'Anime",
+  description: "Vos animes préférés, tous au même endroit.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
-
 export default function RootLayout({
   children,
 }: {
